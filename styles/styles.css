@@ -1,0 +1,16 @@
+﻿body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: gray;
+}
+
+#container{
+	margin-top: 16px;
+}
+
+#gameCanvas {
+	display: block;
+	margin: auto;
+	background-color: black;
+}
