@@ -146,8 +146,8 @@ MenuSystem.prototype.render = function () {
 				context.fillStyle = "white";
 
 				var strHighScores = "HIGH SCORES";
-				context.fillText(strHighScores, this.renderPosition.x - context.measureText(strHighScores).width * 0.5,
-					yPos += 32);
+				context.fillText(strHighScores, this.renderPosition.x - context.measureText(strHighScores).width * 0.5, yPos);
+				yPos += 32;
 
 				// Measure the first entry only
 				var strEntry = highScores[0].score + " " + highScores[0].name;
@@ -155,8 +155,8 @@ MenuSystem.prototype.render = function () {
 
 				// Render the high scores
 				for (var index = 0; index < highScores.length; index++) {
-					context.fillText(highScores[index].score + " " + highScores[index].name,
-						xPos, yPos += 32);
+					context.fillText(highScores[index].score + " " + highScores[index].name, xPos, yPos);
+					yPos += 32;
 				}
 			}
 		}
@@ -167,12 +167,16 @@ MenuSystem.prototype.render = function () {
 			context.fillStyle = "white";
 
 			var strEntry1 = "Start New Game";
-			context.fillText(strEntry1, this.renderPosition.x - context.measureText(strEntry1).width * 0.5,
-				yPos += 32);
+			context.fillText(strEntry1, this.renderPosition.x - context.measureText(strEntry1).width * 0.5, yPos);
+			yPos += 32;
 
 			var strEntry2 = "Press (1-4) Players";
-			context.fillText(strEntry2, this.renderPosition.x - context.measureText(strEntry2).width * 0.5,
-				yPos += 32);
+			context.fillText(strEntry2, this.renderPosition.x - context.measureText(strEntry2).width * 0.5, yPos);
+			yPos += 64;
+
+			var strEntry3 = "Press Esc for Help";
+			context.fillText(strEntry3, this.renderPosition.x - context.measureText(strEntry3).width * 0.5, yPos);
+			yPos += 32;
 		}
 	}
 }
