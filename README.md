@@ -33,4 +33,5 @@ Chicken! - running and firing directly at a small alienship with no intention of
 Wormhole! - shooting balls and aliens through the edge of space.  
 Revenge! - pressing hyperspace to avoid a ball or alien, then you respawn facing it and kill it.  
 Hanging by a thread! - when your playing with your final ship, then you shoot a small alienship, win a free ship, and then get killed.  
-ChinMusic! - barely rotating out of the way when a ball or alien grazes your port or starboard sides.
+ChinMusic! - barely rotating out of the way when a ball or alien grazes your port or starboard sides.  
+ClothesLine! - shooting a string of bullets in front of an alienship and he runs into it.
