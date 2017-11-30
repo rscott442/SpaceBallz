@@ -170,7 +170,7 @@ MenuSystem.prototype.render = function () {
 			context.fillText(strEntry1, this.renderPosition.x - context.measureText(strEntry1).width * 0.5, yPos);
 			yPos += 32;
 
-			var strEntry2 = "Press (1-4) Players";
+			var strEntry2 = "How many players? (1-4)";
 			context.fillText(strEntry2, this.renderPosition.x - context.measureText(strEntry2).width * 0.5, yPos);
 			yPos += 64;
 
