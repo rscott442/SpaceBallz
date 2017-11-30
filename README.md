@@ -23,7 +23,7 @@ You can play the game here www.cosmicwebgames.com
 
 Simple Strategy Guide and Tips  
 When you start to shoot a large ball, stay focused on the medium and small balls that spawn from it.  
-Don't start shooting a medium or large ball and the turn your back on it.  
+Don't start shooting a medium or large ball and then turn your back on it.  
 Be sure to hang out in the middle of the screen before the next wave of balls spawn.  
 Press pause when you need to scratch your nose.  
 
