@@ -1,7 +1,7 @@
 # SpaceBallz
 
 SpaceBallz is a 2D game developed with HTML5 and Javascript.  
-It supports desktop browsers Chrome, Firefox, Safari, IE11 and Edge.  
+It supports desktop browsers Chrome, Firefox, Safari, IE11, and Edge.  
 IE11 and Edge have no sound support.
 
 Keyboard Controls  
