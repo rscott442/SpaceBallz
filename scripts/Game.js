@@ -29,6 +29,9 @@ Game.prototype.initialize = function () {
 	this.keyBoard.initialize();
 	this.systems = [];
 
+	// Write a header to the browser console for player stats
+	console.log("DateTime,Name,Score,Level,ShotsHit,ShotFired,Accuracy,PlayTime,FuelBurned,HyperSpaceCount");
+
 	// Initialize the game after the spriteSheet is loaded
 	this.spriteSheet = new Image();
 	this.spriteSheet.addEventListener('load', function () {
@@ -120,9 +123,6 @@ Game.prototype.render = function () {
 }
 
 window.onload = function () {
-	// Write header to browser console for player stats
-	console.log("DateTime,Name,Score,Level,ShotsHit,ShotFired,Accuracy,PlayTime,FuelBurned,HyperSpaceCount");
-
 	// Start the game
 	var game = new Game();
 	game.initialize();
